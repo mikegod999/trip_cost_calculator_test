@@ -3,7 +3,7 @@ namespace tests;
 
 use PHPUnit\Framework\TestCase;
 use src\Controller\TripCostController;
-use src\Vehicles\Bus;
+use src\Model\Vehicles\Bus;
 
 class VehiclesControllerTest extends TestCase {
     public function testCalculate() {
